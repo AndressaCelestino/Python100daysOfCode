@@ -1,0 +1,8 @@
+print("enter your heigth in meters /n")
+heigth = input()
+print("enter your weigth in kg /n")
+weigth = input()
+heigth_as_float = float(heigth)
+weigth_as_int = int(weigth)
+bmi= int(weigth_as_int/heigth_as_float**2)
+print(bmi)
